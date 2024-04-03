@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from faker import Faker
-from conftest import driver
+from conftest import driver, options
 
 fake = Faker()
 
