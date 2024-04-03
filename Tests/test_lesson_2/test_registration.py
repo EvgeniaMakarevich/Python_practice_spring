@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from faker import Faker
-from Python_practice_spring.conftest import driver
+from conftest import driver
 
 fake = Faker()
 

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
-from Python_practice_spring.lesson_1.Locators.catalogue_locators import CatalogueLocators
-from Python_practice_spring.lesson_1.Pages.filtration import Filtration
-from Python_practice_spring.lesson_1.Data.catalogue_data import CatalogueData
+from lesson_1.Locators.catalogue_locators import CatalogueLocators
+from lesson_1.Pages.filtration import Filtration
+from lesson_1.Data.catalogue_data import CatalogueData
 import re
 # from conftest import login, driver, options
 

@@ -1,9 +1,9 @@
-from Python_practice_spring.lesson_1.Pages.catalogue_page import Catalogue
-from Python_practice_spring.lesson_1.Locators.catalogue_locators import CatalogueLocators
-from Python_practice_spring.lesson_1.Locators.cart_locators import CartLocators
-from Python_practice_spring.lesson_1.Data.catalogue_data import CatalogueData
-from Python_practice_spring.lesson_1.Data.cart_data import CartData
-from Python_practice_spring.lesson_1.Data.login_data import Login_page_data
+from lesson_1.Pages.catalogue_page import Catalogue
+from lesson_1.Locators.catalogue_locators import CatalogueLocators
+from lesson_1.Locators.cart_locators import CartLocators
+from lesson_1.Data.catalogue_data import CatalogueData
+from lesson_1.Data.cart_data import CartData
+from lesson_1.Data.login_data import Login_page_data
 import pytest
 
 locators = CatalogueLocators()

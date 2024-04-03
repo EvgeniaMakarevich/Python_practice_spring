@@ -1,5 +1,5 @@
-from Python_practice_spring.lesson_1.Pages.base_page import BasePage
-from Python_practice_spring.lesson_1.Locators.filtration_locators import FiltrationLocators
+from lesson_1.Pages.base_page import BasePage
+from lesson_1.Locators.filtration_locators import FiltrationLocators
 from selenium.webdriver.support.ui import Select
 
 

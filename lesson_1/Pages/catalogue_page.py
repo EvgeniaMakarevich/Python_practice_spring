@@ -1,5 +1,5 @@
-from Python_practice_spring.lesson_1.Pages.base_page import BasePage
-from Python_practice_spring.lesson_1.Locators.catalogue_locators import CatalogueLocators
+from lesson_1.Pages.base_page import BasePage
+from lesson_1.Locators.catalogue_locators import CatalogueLocators
 from selenium.webdriver.common.by import By
 
 locators = CatalogueLocators()

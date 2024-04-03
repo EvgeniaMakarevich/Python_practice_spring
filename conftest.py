@@ -3,8 +3,8 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
-from Python_practice_spring.lesson_1.Data.login_data import Login_page_data
-from Python_practice_spring.lesson_1.Locators.login_locators import Sauce_login
+from lesson_1.Data.login_data import Login_page_data
+from lesson_1.Locators.login_locators import Sauce_login
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

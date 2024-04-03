@@ -1,6 +1,6 @@
-from Python_practice_spring.lesson_1.Pages.login_page import LoginPage
-from Python_practice_spring.lesson_1.Data.login_data import Login_page_data
-from Python_practice_spring.lesson_1.Locators.login_locators import Sauce_login
+from lesson_1.Pages.login_page import LoginPage
+from lesson_1.Data.login_data import Login_page_data
+from lesson_1.Locators.login_locators import Sauce_login
 
 data = Login_page_data()
 locator = Sauce_login()

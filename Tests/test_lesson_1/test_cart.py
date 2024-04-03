@@ -1,9 +1,9 @@
 from selenium.common import NoSuchElementException
-from Python_practice_spring.lesson_1.Pages.cart import Cart
-from Python_practice_spring.lesson_1.Data.catalogue_data import CatalogueData
-from Python_practice_spring.lesson_1.Locators.catalogue_locators import CatalogueLocators
-from Python_practice_spring.lesson_1.Locators.cart_locators import CartLocators
-from Python_practice_spring.lesson_1.Data.cart_data import CartData
+from lesson_1.Pages.cart import Cart
+from lesson_1.Data.catalogue_data import CatalogueData
+from lesson_1.Locators.catalogue_locators import CatalogueLocators
+from lesson_1.Locators.cart_locators import CartLocators
+from lesson_1.Data.cart_data import CartData
 import pytest
 
 
