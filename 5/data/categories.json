@@ -1,0 +1,825 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55e4cff8ccb3 <unknown>\n#1 0x55e4cfc7b4a7 <unknown>\n#2 0x55e4cfcafa26 <unknown>\n#3 0x55e4cfcab980 <unknown>\n#4 0x55e4cfcf47b0 <unknown>\n#5 0x55e4cfce81b3 <unknown>\n#6 0x55e4cfcb924a <unknown>\n#7 0x55e4cfcb9c1e <unknown>\n#8 0x55e4cff50fdb <unknown>\n#9 0x55e4cff54f2b <unknown>\n#10 0x55e4cff3d0f1 <unknown>\n#11 0x55e4cff55a92 <unknown>\n#12 0x55e4cff21faf <unknown>\n#13 0x55e4cff7be08 <unknown>\n#14 0x55e4cff7bfe0 <unknown>\n#15 0x55e4cff8be04 <unknown>\n#16 0x7ff07f894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator0-remove_cart_locator0]",
+        "uid" : "90011fb3d226ff99",
+        "parentUid" : "d434d39aa9447552c7bd2715c39328df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822760376,
+          "stop" : 1714822760376,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+      } ],
+      "uid" : "d434d39aa9447552c7bd2715c39328df"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x562ff92f6cb3 <unknown>\n#1 0x562ff8fe54a7 <unknown>\n#2 0x562ff9019a26 <unknown>\n#3 0x562ff9015980 <unknown>\n#4 0x562ff905e7b0 <unknown>\n#5 0x562ff90521b3 <unknown>\n#6 0x562ff902324a <unknown>\n#7 0x562ff9023c1e <unknown>\n#8 0x562ff92bafdb <unknown>\n#9 0x562ff92bef2b <unknown>\n#10 0x562ff92a70f1 <unknown>\n#11 0x562ff92bfa92 <unknown>\n#12 0x562ff928bfaf <unknown>\n#13 0x562ff92e5e08 <unknown>\n#14 0x562ff92e5fe0 <unknown>\n#15 0x562ff92f5e04 <unknown>\n#16 0x7fc50ac94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator1-remove_cart_locator1]",
+        "uid" : "c2783a9e6413b626",
+        "parentUid" : "0bd2bf3d5df650a709a40fb8971d30a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822770863,
+          "stop" : 1714822770863,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+      } ],
+      "uid" : "0bd2bf3d5df650a709a40fb8971d30a6"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55e5e670ccb3 <unknown>\n#1 0x55e5e63fb4a7 <unknown>\n#2 0x55e5e642fa26 <unknown>\n#3 0x55e5e642b980 <unknown>\n#4 0x55e5e64747b0 <unknown>\n#5 0x55e5e64681b3 <unknown>\n#6 0x55e5e643924a <unknown>\n#7 0x55e5e6439c1e <unknown>\n#8 0x55e5e66d0fdb <unknown>\n#9 0x55e5e66d4f2b <unknown>\n#10 0x55e5e66bd0f1 <unknown>\n#11 0x55e5e66d5a92 <unknown>\n#12 0x55e5e66a1faf <unknown>\n#13 0x55e5e66fbe08 <unknown>\n#14 0x55e5e66fbfe0 <unknown>\n#15 0x55e5e670be04 <unknown>\n#16 0x7f9a99694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator2-remove_cart_locator2]",
+        "uid" : "1bffa0fa0350b8ae",
+        "parentUid" : "e9a2e557da0a3e53679ca2e01b152025",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822771213,
+          "stop" : 1714822771213,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+      } ],
+      "uid" : "e9a2e557da0a3e53679ca2e01b152025"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55c49abc6cb3 <unknown>\n#1 0x55c49a8b54a7 <unknown>\n#2 0x55c49a8e9a26 <unknown>\n#3 0x55c49a8e5980 <unknown>\n#4 0x55c49a92e7b0 <unknown>\n#5 0x55c49a9221b3 <unknown>\n#6 0x55c49a8f324a <unknown>\n#7 0x55c49a8f3c1e <unknown>\n#8 0x55c49ab8afdb <unknown>\n#9 0x55c49ab8ef2b <unknown>\n#10 0x55c49ab770f1 <unknown>\n#11 0x55c49ab8fa92 <unknown>\n#12 0x55c49ab5bfaf <unknown>\n#13 0x55c49abb5e08 <unknown>\n#14 0x55c49abb5fe0 <unknown>\n#15 0x55c49abc5e04 <unknown>\n#16 0x7f5315094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator3-remove_cart_locator3]",
+        "uid" : "5b26c6a964748d1a",
+        "parentUid" : "08b8ffb1be02fabc848042ff913c6f7a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822771533,
+          "stop" : 1714822771533,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+      } ],
+      "uid" : "08b8ffb1be02fabc848042ff913c6f7a"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55f097e42cb3 <unknown>\n#1 0x55f097b314a7 <unknown>\n#2 0x55f097b65a26 <unknown>\n#3 0x55f097b61980 <unknown>\n#4 0x55f097baa7b0 <unknown>\n#5 0x55f097b9e1b3 <unknown>\n#6 0x55f097b6f24a <unknown>\n#7 0x55f097b6fc1e <unknown>\n#8 0x55f097e06fdb <unknown>\n#9 0x55f097e0af2b <unknown>\n#10 0x55f097df30f1 <unknown>\n#11 0x55f097e0ba92 <unknown>\n#12 0x55f097dd7faf <unknown>\n#13 0x55f097e31e08 <unknown>\n#14 0x55f097e31fe0 <unknown>\n#15 0x55f097e41e04 <unknown>\n#16 0x7f6a5ae94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator4-remove_cart_locator4]",
+        "uid" : "3e49d75f741cef69",
+        "parentUid" : "8cf45084081965228767bbcb2a9ff047",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822771855,
+          "stop" : 1714822771855,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+      } ],
+      "uid" : "8cf45084081965228767bbcb2a9ff047"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5616eb5dccb3 <unknown>\n#1 0x5616eb2cb4a7 <unknown>\n#2 0x5616eb2ffa26 <unknown>\n#3 0x5616eb2fb980 <unknown>\n#4 0x5616eb3447b0 <unknown>\n#5 0x5616eb3381b3 <unknown>\n#6 0x5616eb30924a <unknown>\n#7 0x5616eb309c1e <unknown>\n#8 0x5616eb5a0fdb <unknown>\n#9 0x5616eb5a4f2b <unknown>\n#10 0x5616eb58d0f1 <unknown>\n#11 0x5616eb5a5a92 <unknown>\n#12 0x5616eb571faf <unknown>\n#13 0x5616eb5cbe08 <unknown>\n#14 0x5616eb5cbfe0 <unknown>\n#15 0x5616eb5dbe04 <unknown>\n#16 0x7f58b4c94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart[add_cart_locator5-remove_cart_locator5]",
+        "uid" : "736222b4874c236d",
+        "parentUid" : "72066c63e366149d10146115fc303057",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822772182,
+          "stop" : 1714822772182,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+      } ],
+      "uid" : "72066c63e366149d10146115fc303057"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55ed081dacb3 <unknown>\n#1 0x55ed07ec94a7 <unknown>\n#2 0x55ed07efda26 <unknown>\n#3 0x55ed07ef9980 <unknown>\n#4 0x55ed07f427b0 <unknown>\n#5 0x55ed07f361b3 <unknown>\n#6 0x55ed07f0724a <unknown>\n#7 0x55ed07f07c1e <unknown>\n#8 0x55ed0819efdb <unknown>\n#9 0x55ed081a2f2b <unknown>\n#10 0x55ed0818b0f1 <unknown>\n#11 0x55ed081a3a92 <unknown>\n#12 0x55ed0816ffaf <unknown>\n#13 0x55ed081c9e08 <unknown>\n#14 0x55ed081c9fe0 <unknown>\n#15 0x55ed081d9e04 <unknown>\n#16 0x7facdfc94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator0-remove_cart_locator0]",
+        "uid" : "186a0a076efcb30a",
+        "parentUid" : "abeeb9ffa3fe3b03c99c4426a93f23b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822772525,
+          "stop" : 1714822772525,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+      } ],
+      "uid" : "abeeb9ffa3fe3b03c99c4426a93f23b2"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55f047f4fcb3 <unknown>\n#1 0x55f047c3e4a7 <unknown>\n#2 0x55f047c72a26 <unknown>\n#3 0x55f047c6e980 <unknown>\n#4 0x55f047cb77b0 <unknown>\n#5 0x55f047cab1b3 <unknown>\n#6 0x55f047c7c24a <unknown>\n#7 0x55f047c7cc1e <unknown>\n#8 0x55f047f13fdb <unknown>\n#9 0x55f047f17f2b <unknown>\n#10 0x55f047f000f1 <unknown>\n#11 0x55f047f18a92 <unknown>\n#12 0x55f047ee4faf <unknown>\n#13 0x55f047f3ee08 <unknown>\n#14 0x55f047f3efe0 <unknown>\n#15 0x55f047f4ee04 <unknown>\n#16 0x7f1f99694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator1-remove_cart_locator1]",
+        "uid" : "f20d1bcfdf3a732c",
+        "parentUid" : "fea10fbb3cc60a3e4400a4cb55a9c005",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822772855,
+          "stop" : 1714822772855,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+      } ],
+      "uid" : "fea10fbb3cc60a3e4400a4cb55a9c005"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x561ebb4d3cb3 <unknown>\n#1 0x561ebb1c24a7 <unknown>\n#2 0x561ebb1f6a26 <unknown>\n#3 0x561ebb1f2980 <unknown>\n#4 0x561ebb23b7b0 <unknown>\n#5 0x561ebb22f1b3 <unknown>\n#6 0x561ebb20024a <unknown>\n#7 0x561ebb200c1e <unknown>\n#8 0x561ebb497fdb <unknown>\n#9 0x561ebb49bf2b <unknown>\n#10 0x561ebb4840f1 <unknown>\n#11 0x561ebb49ca92 <unknown>\n#12 0x561ebb468faf <unknown>\n#13 0x561ebb4c2e08 <unknown>\n#14 0x561ebb4c2fe0 <unknown>\n#15 0x561ebb4d2e04 <unknown>\n#16 0x7f0537e94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator2-remove_cart_locator2]",
+        "uid" : "379d5813ff778f9e",
+        "parentUid" : "1a45d5e6686261c1d6f3a0065f61273b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822773192,
+          "stop" : 1714822773192,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+      } ],
+      "uid" : "1a45d5e6686261c1d6f3a0065f61273b"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55d793ac4cb3 <unknown>\n#1 0x55d7937b34a7 <unknown>\n#2 0x55d7937e7a26 <unknown>\n#3 0x55d7937e3980 <unknown>\n#4 0x55d79382c7b0 <unknown>\n#5 0x55d7938201b3 <unknown>\n#6 0x55d7937f124a <unknown>\n#7 0x55d7937f1c1e <unknown>\n#8 0x55d793a88fdb <unknown>\n#9 0x55d793a8cf2b <unknown>\n#10 0x55d793a750f1 <unknown>\n#11 0x55d793a8da92 <unknown>\n#12 0x55d793a59faf <unknown>\n#13 0x55d793ab3e08 <unknown>\n#14 0x55d793ab3fe0 <unknown>\n#15 0x55d793ac3e04 <unknown>\n#16 0x7f9199494ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator3-remove_cart_locator3]",
+        "uid" : "e1e93bd4aaddfe19",
+        "parentUid" : "36cc4c1cfbc97cb72fb9f3e0016c6103",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822773514,
+          "stop" : 1714822773514,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+      } ],
+      "uid" : "36cc4c1cfbc97cb72fb9f3e0016c6103"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55adb6d59cb3 <unknown>\n#1 0x55adb6a484a7 <unknown>\n#2 0x55adb6a7ca26 <unknown>\n#3 0x55adb6a78980 <unknown>\n#4 0x55adb6ac17b0 <unknown>\n#5 0x55adb6ab51b3 <unknown>\n#6 0x55adb6a8624a <unknown>\n#7 0x55adb6a86c1e <unknown>\n#8 0x55adb6d1dfdb <unknown>\n#9 0x55adb6d21f2b <unknown>\n#10 0x55adb6d0a0f1 <unknown>\n#11 0x55adb6d22a92 <unknown>\n#12 0x55adb6ceefaf <unknown>\n#13 0x55adb6d48e08 <unknown>\n#14 0x55adb6d48fe0 <unknown>\n#15 0x55adb6d58e04 <unknown>\n#16 0x7fc57b894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator4-remove_cart_locator4]",
+        "uid" : "b6dc6f3e54da353f",
+        "parentUid" : "d42cd668adc07cd27e262c41609c70d5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822773832,
+          "stop" : 1714822773832,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+      } ],
+      "uid" : "d42cd668adc07cd27e262c41609c70d5"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55e7b441fcb3 <unknown>\n#1 0x55e7b410e4a7 <unknown>\n#2 0x55e7b4142a26 <unknown>\n#3 0x55e7b413e980 <unknown>\n#4 0x55e7b41877b0 <unknown>\n#5 0x55e7b417b1b3 <unknown>\n#6 0x55e7b414c24a <unknown>\n#7 0x55e7b414cc1e <unknown>\n#8 0x55e7b43e3fdb <unknown>\n#9 0x55e7b43e7f2b <unknown>\n#10 0x55e7b43d00f1 <unknown>\n#11 0x55e7b43e8a92 <unknown>\n#12 0x55e7b43b4faf <unknown>\n#13 0x55e7b440ee08 <unknown>\n#14 0x55e7b440efe0 <unknown>\n#15 0x55e7b441ee04 <unknown>\n#16 0x7f7d33894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_item_go_catalogue[add_cart_locator5-remove_cart_locator5]",
+        "uid" : "21e569245336a727",
+        "parentUid" : "a77bdf97d6306b7f98cb975db667c0de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822774154,
+          "stop" : 1714822774154,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+      } ],
+      "uid" : "a77bdf97d6306b7f98cb975db667c0de"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55ed12f08cb3 <unknown>\n#1 0x55ed12bf74a7 <unknown>\n#2 0x55ed12c2ba26 <unknown>\n#3 0x55ed12c27980 <unknown>\n#4 0x55ed12c707b0 <unknown>\n#5 0x55ed12c641b3 <unknown>\n#6 0x55ed12c3524a <unknown>\n#7 0x55ed12c35c1e <unknown>\n#8 0x55ed12eccfdb <unknown>\n#9 0x55ed12ed0f2b <unknown>\n#10 0x55ed12eb90f1 <unknown>\n#11 0x55ed12ed1a92 <unknown>\n#12 0x55ed12e9dfaf <unknown>\n#13 0x55ed12ef7e08 <unknown>\n#14 0x55ed12ef7fe0 <unknown>\n#15 0x55ed12f07e04 <unknown>\n#16 0x7faba7a94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator0-1]",
+        "uid" : "22fe641b93d2a505",
+        "parentUid" : "4dbe1dff1d3845070ad5b1d0cdb69a22",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822774476,
+          "stop" : 1714822774476,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "1" ]
+      } ],
+      "uid" : "4dbe1dff1d3845070ad5b1d0cdb69a22"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5654bfcf4cb3 <unknown>\n#1 0x5654bf9e34a7 <unknown>\n#2 0x5654bfa17a26 <unknown>\n#3 0x5654bfa13980 <unknown>\n#4 0x5654bfa5c7b0 <unknown>\n#5 0x5654bfa501b3 <unknown>\n#6 0x5654bfa2124a <unknown>\n#7 0x5654bfa21c1e <unknown>\n#8 0x5654bfcb8fdb <unknown>\n#9 0x5654bfcbcf2b <unknown>\n#10 0x5654bfca50f1 <unknown>\n#11 0x5654bfcbda92 <unknown>\n#12 0x5654bfc89faf <unknown>\n#13 0x5654bfce3e08 <unknown>\n#14 0x5654bfce3fe0 <unknown>\n#15 0x5654bfcf3e04 <unknown>\n#16 0x7fe765694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator1-2]",
+        "uid" : "985e1b7427d1049f",
+        "parentUid" : "e689b7a1bef86303acc0ed08e4aa6b44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822774829,
+          "stop" : 1714822774829,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "2" ]
+      } ],
+      "uid" : "e689b7a1bef86303acc0ed08e4aa6b44"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5571dd518cb3 <unknown>\n#1 0x5571dd2074a7 <unknown>\n#2 0x5571dd23ba26 <unknown>\n#3 0x5571dd237980 <unknown>\n#4 0x5571dd2807b0 <unknown>\n#5 0x5571dd2741b3 <unknown>\n#6 0x5571dd24524a <unknown>\n#7 0x5571dd245c1e <unknown>\n#8 0x5571dd4dcfdb <unknown>\n#9 0x5571dd4e0f2b <unknown>\n#10 0x5571dd4c90f1 <unknown>\n#11 0x5571dd4e1a92 <unknown>\n#12 0x5571dd4adfaf <unknown>\n#13 0x5571dd507e08 <unknown>\n#14 0x5571dd507fe0 <unknown>\n#15 0x5571dd517e04 <unknown>\n#16 0x7f0299494ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator2-3]",
+        "uid" : "3470f8021bbfffb5",
+        "parentUid" : "05cbae34036809a16f1148186d69685d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822775152,
+          "stop" : 1714822775152,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "3" ]
+      } ],
+      "uid" : "05cbae34036809a16f1148186d69685d"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55f859995cb3 <unknown>\n#1 0x55f8596844a7 <unknown>\n#2 0x55f8596b8a26 <unknown>\n#3 0x55f8596b4980 <unknown>\n#4 0x55f8596fd7b0 <unknown>\n#5 0x55f8596f11b3 <unknown>\n#6 0x55f8596c224a <unknown>\n#7 0x55f8596c2c1e <unknown>\n#8 0x55f859959fdb <unknown>\n#9 0x55f85995df2b <unknown>\n#10 0x55f8599460f1 <unknown>\n#11 0x55f85995ea92 <unknown>\n#12 0x55f85992afaf <unknown>\n#13 0x55f859984e08 <unknown>\n#14 0x55f859984fe0 <unknown>\n#15 0x55f859994e04 <unknown>\n#16 0x7fd657894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator3-4]",
+        "uid" : "95d9571da7387167",
+        "parentUid" : "0a0f1d741bd7dddde89e27384bc1558f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822775475,
+          "stop" : 1714822775475,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "4" ]
+      } ],
+      "uid" : "0a0f1d741bd7dddde89e27384bc1558f"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x560f665e4cb3 <unknown>\n#1 0x560f662d34a7 <unknown>\n#2 0x560f66307a26 <unknown>\n#3 0x560f66303980 <unknown>\n#4 0x560f6634c7b0 <unknown>\n#5 0x560f663401b3 <unknown>\n#6 0x560f6631124a <unknown>\n#7 0x560f66311c1e <unknown>\n#8 0x560f665a8fdb <unknown>\n#9 0x560f665acf2b <unknown>\n#10 0x560f665950f1 <unknown>\n#11 0x560f665ada92 <unknown>\n#12 0x560f66579faf <unknown>\n#13 0x560f665d3e08 <unknown>\n#14 0x560f665d3fe0 <unknown>\n#15 0x560f665e3e04 <unknown>\n#16 0x7fcc4e894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator4-5]",
+        "uid" : "c223c079e4a10786",
+        "parentUid" : "962f611836d6077d08e4078dd3e8a264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822775811,
+          "stop" : 1714822775811,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "5" ]
+      } ],
+      "uid" : "962f611836d6077d08e4078dd3e8a264"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55c378086cb3 <unknown>\n#1 0x55c377d754a7 <unknown>\n#2 0x55c377da9a26 <unknown>\n#3 0x55c377da5980 <unknown>\n#4 0x55c377dee7b0 <unknown>\n#5 0x55c377de21b3 <unknown>\n#6 0x55c377db324a <unknown>\n#7 0x55c377db3c1e <unknown>\n#8 0x55c37804afdb <unknown>\n#9 0x55c37804ef2b <unknown>\n#10 0x55c3780370f1 <unknown>\n#11 0x55c37804fa92 <unknown>\n#12 0x55c37801bfaf <unknown>\n#13 0x55c378075e08 <unknown>\n#14 0x55c378075fe0 <unknown>\n#15 0x55c378085e04 <unknown>\n#16 0x7f9f28094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator5-6]",
+        "uid" : "ee25c3b5a254abfd",
+        "parentUid" : "e90f1a12d0b237ac4ea7240b21b5adaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822776140,
+          "stop" : 1714822776140,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "6" ]
+      } ],
+      "uid" : "e90f1a12d0b237ac4ea7240b21b5adaa"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55fc66444cb3 <unknown>\n#1 0x55fc661334a7 <unknown>\n#2 0x55fc66167a26 <unknown>\n#3 0x55fc66163980 <unknown>\n#4 0x55fc661ac7b0 <unknown>\n#5 0x55fc661a01b3 <unknown>\n#6 0x55fc6617124a <unknown>\n#7 0x55fc66171c1e <unknown>\n#8 0x55fc66408fdb <unknown>\n#9 0x55fc6640cf2b <unknown>\n#10 0x55fc663f50f1 <unknown>\n#11 0x55fc6640da92 <unknown>\n#12 0x55fc663d9faf <unknown>\n#13 0x55fc66433e08 <unknown>\n#14 0x55fc66433fe0 <unknown>\n#15 0x55fc66443e04 <unknown>\n#16 0x7f1328e94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name0]",
+        "uid" : "db0ddf4203c1fbf1",
+        "parentUid" : "e5cb01b8de5941a5630454dce2d09d16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822776463,
+          "stop" : 1714822776463,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-4-title-link\"]')" ]
+      } ],
+      "uid" : "e5cb01b8de5941a5630454dce2d09d16"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x56011ea90cb3 <unknown>\n#1 0x56011e77f4a7 <unknown>\n#2 0x56011e7b3a26 <unknown>\n#3 0x56011e7af980 <unknown>\n#4 0x56011e7f87b0 <unknown>\n#5 0x56011e7ec1b3 <unknown>\n#6 0x56011e7bd24a <unknown>\n#7 0x56011e7bdc1e <unknown>\n#8 0x56011ea54fdb <unknown>\n#9 0x56011ea58f2b <unknown>\n#10 0x56011ea410f1 <unknown>\n#11 0x56011ea59a92 <unknown>\n#12 0x56011ea25faf <unknown>\n#13 0x56011ea7fe08 <unknown>\n#14 0x56011ea7ffe0 <unknown>\n#15 0x56011ea8fe04 <unknown>\n#16 0x7f3ea1694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name1]",
+        "uid" : "a2a47354defaf21d",
+        "parentUid" : "b7762d9c233e799760a55337274adf8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822776786,
+          "stop" : 1714822776786,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-0-title-link\"]')" ]
+      } ],
+      "uid" : "b7762d9c233e799760a55337274adf8f"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x557442eeacb3 <unknown>\n#1 0x557442bd94a7 <unknown>\n#2 0x557442c0da26 <unknown>\n#3 0x557442c09980 <unknown>\n#4 0x557442c527b0 <unknown>\n#5 0x557442c461b3 <unknown>\n#6 0x557442c1724a <unknown>\n#7 0x557442c17c1e <unknown>\n#8 0x557442eaefdb <unknown>\n#9 0x557442eb2f2b <unknown>\n#10 0x557442e9b0f1 <unknown>\n#11 0x557442eb3a92 <unknown>\n#12 0x557442e7ffaf <unknown>\n#13 0x557442ed9e08 <unknown>\n#14 0x557442ed9fe0 <unknown>\n#15 0x557442ee9e04 <unknown>\n#16 0x7fd6e8894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name2]",
+        "uid" : "3aa44395aab7b07d",
+        "parentUid" : "672ff55b6390f6a0662818622b91b272",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822777116,
+          "stop" : 1714822777116,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-1-title-link\"]')" ]
+      } ],
+      "uid" : "672ff55b6390f6a0662818622b91b272"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5589e00cacb3 <unknown>\n#1 0x5589dfdb94a7 <unknown>\n#2 0x5589dfdeda26 <unknown>\n#3 0x5589dfde9980 <unknown>\n#4 0x5589dfe327b0 <unknown>\n#5 0x5589dfe261b3 <unknown>\n#6 0x5589dfdf724a <unknown>\n#7 0x5589dfdf7c1e <unknown>\n#8 0x5589e008efdb <unknown>\n#9 0x5589e0092f2b <unknown>\n#10 0x5589e007b0f1 <unknown>\n#11 0x5589e0093a92 <unknown>\n#12 0x5589e005ffaf <unknown>\n#13 0x5589e00b9e08 <unknown>\n#14 0x5589e00b9fe0 <unknown>\n#15 0x5589e00c9e04 <unknown>\n#16 0x7f60a5094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name3]",
+        "uid" : "8254cd95877a596e",
+        "parentUid" : "3ef8e952a3c5e5fd76bdbc02d9760be1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822777445,
+          "stop" : 1714822777445,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-5-title-link\"]')" ]
+      } ],
+      "uid" : "3ef8e952a3c5e5fd76bdbc02d9760be1"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x563fd87cacb3 <unknown>\n#1 0x563fd84b94a7 <unknown>\n#2 0x563fd84eda26 <unknown>\n#3 0x563fd84e9980 <unknown>\n#4 0x563fd85327b0 <unknown>\n#5 0x563fd85261b3 <unknown>\n#6 0x563fd84f724a <unknown>\n#7 0x563fd84f7c1e <unknown>\n#8 0x563fd878efdb <unknown>\n#9 0x563fd8792f2b <unknown>\n#10 0x563fd877b0f1 <unknown>\n#11 0x563fd8793a92 <unknown>\n#12 0x563fd875ffaf <unknown>\n#13 0x563fd87b9e08 <unknown>\n#14 0x563fd87b9fe0 <unknown>\n#15 0x563fd87c9e04 <unknown>\n#16 0x7f7547c94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name4]",
+        "uid" : "5d20425b003b2628",
+        "parentUid" : "e9004bdacdb6585171665942e21f73aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822777770,
+          "stop" : 1714822777770,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-2-title-link\"]')" ]
+      } ],
+      "uid" : "e9004bdacdb6585171665942e21f73aa"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55b5ec18dcb3 <unknown>\n#1 0x55b5ebe7c4a7 <unknown>\n#2 0x55b5ebeb0a26 <unknown>\n#3 0x55b5ebeac980 <unknown>\n#4 0x55b5ebef57b0 <unknown>\n#5 0x55b5ebee91b3 <unknown>\n#6 0x55b5ebeba24a <unknown>\n#7 0x55b5ebebac1e <unknown>\n#8 0x55b5ec151fdb <unknown>\n#9 0x55b5ec155f2b <unknown>\n#10 0x55b5ec13e0f1 <unknown>\n#11 0x55b5ec156a92 <unknown>\n#12 0x55b5ec122faf <unknown>\n#13 0x55b5ec17ce08 <unknown>\n#14 0x55b5ec17cfe0 <unknown>\n#15 0x55b5ec18ce04 <unknown>\n#16 0x7fb68a094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_verify_product_2[item_name5]",
+        "uid" : "a85effe68c2062f5",
+        "parentUid" : "16c91d70a5f30da863788531b888ae10",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822778092,
+          "stop" : 1714822778092,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "('xpath', '//a[@data-test=\"item-3-title-link\"]')" ]
+      } ],
+      "uid" : "16c91d70a5f30da863788531b888ae10"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55ed9989bcb3 <unknown>\n#1 0x55ed9958a4a7 <unknown>\n#2 0x55ed995bea26 <unknown>\n#3 0x55ed995ba980 <unknown>\n#4 0x55ed996037b0 <unknown>\n#5 0x55ed995f71b3 <unknown>\n#6 0x55ed995c824a <unknown>\n#7 0x55ed995c8c1e <unknown>\n#8 0x55ed9985ffdb <unknown>\n#9 0x55ed99863f2b <unknown>\n#10 0x55ed9984c0f1 <unknown>\n#11 0x55ed99864a92 <unknown>\n#12 0x55ed99830faf <unknown>\n#13 0x55ed9988ae08 <unknown>\n#14 0x55ed9988afe0 <unknown>\n#15 0x55ed9989ae04 <unknown>\n#16 0x7fe5cd294ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_and_go_to_catalogue",
+        "uid" : "4f2fed34e4a550a4",
+        "parentUid" : "9d66472730ccad420ad2a13740e80084",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822778431,
+          "stop" : 1714822778431,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d66472730ccad420ad2a13740e80084"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5627debaccb3 <unknown>\n#1 0x5627de89b4a7 <unknown>\n#2 0x5627de8cfa26 <unknown>\n#3 0x5627de8cb980 <unknown>\n#4 0x5627de9147b0 <unknown>\n#5 0x5627de9081b3 <unknown>\n#6 0x5627de8d924a <unknown>\n#7 0x5627de8d9c1e <unknown>\n#8 0x5627deb70fdb <unknown>\n#9 0x5627deb74f2b <unknown>\n#10 0x5627deb5d0f1 <unknown>\n#11 0x5627deb75a92 <unknown>\n#12 0x5627deb41faf <unknown>\n#13 0x5627deb9be08 <unknown>\n#14 0x5627deb9bfe0 <unknown>\n#15 0x5627debabe04 <unknown>\n#16 0x7f181e694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "c618c31176ef9d6e",
+        "parentUid" : "a23ce388c697c1db498d796e47c2f4a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822778752,
+          "stop" : 1714822778752,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a23ce388c697c1db498d796e47c2f4a6"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x560e20ca2cb3 <unknown>\n#1 0x560e209914a7 <unknown>\n#2 0x560e209c5a26 <unknown>\n#3 0x560e209c1980 <unknown>\n#4 0x560e20a0a7b0 <unknown>\n#5 0x560e209fe1b3 <unknown>\n#6 0x560e209cf24a <unknown>\n#7 0x560e209cfc1e <unknown>\n#8 0x560e20c66fdb <unknown>\n#9 0x560e20c6af2b <unknown>\n#10 0x560e20c530f1 <unknown>\n#11 0x560e20c6ba92 <unknown>\n#12 0x560e20c37faf <unknown>\n#13 0x560e20c91e08 <unknown>\n#14 0x560e20c91fe0 <unknown>\n#15 0x560e20ca1e04 <unknown>\n#16 0x7fa043e94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_az",
+        "uid" : "3e5be6601457ca94",
+        "parentUid" : "fe71f88b73225b5cb826633bed0b2c59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822779073,
+          "stop" : 1714822779073,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe71f88b73225b5cb826633bed0b2c59"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55dbf9af9cb3 <unknown>\n#1 0x55dbf97e84a7 <unknown>\n#2 0x55dbf981ca26 <unknown>\n#3 0x55dbf9818980 <unknown>\n#4 0x55dbf98617b0 <unknown>\n#5 0x55dbf98551b3 <unknown>\n#6 0x55dbf982624a <unknown>\n#7 0x55dbf9826c1e <unknown>\n#8 0x55dbf9abdfdb <unknown>\n#9 0x55dbf9ac1f2b <unknown>\n#10 0x55dbf9aaa0f1 <unknown>\n#11 0x55dbf9ac2a92 <unknown>\n#12 0x55dbf9a8efaf <unknown>\n#13 0x55dbf9ae8e08 <unknown>\n#14 0x55dbf9ae8fe0 <unknown>\n#15 0x55dbf9af8e04 <unknown>\n#16 0x7f1e5a894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_za",
+        "uid" : "a3dc5dfbfd043cef",
+        "parentUid" : "dd22ea1177a7e6ab45c076a982afda4e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822779396,
+          "stop" : 1714822779396,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd22ea1177a7e6ab45c076a982afda4e"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x556c92c7ccb3 <unknown>\n#1 0x556c9296b4a7 <unknown>\n#2 0x556c9299fa26 <unknown>\n#3 0x556c9299b980 <unknown>\n#4 0x556c929e47b0 <unknown>\n#5 0x556c929d81b3 <unknown>\n#6 0x556c929a924a <unknown>\n#7 0x556c929a9c1e <unknown>\n#8 0x556c92c40fdb <unknown>\n#9 0x556c92c44f2b <unknown>\n#10 0x556c92c2d0f1 <unknown>\n#11 0x556c92c45a92 <unknown>\n#12 0x556c92c11faf <unknown>\n#13 0x556c92c6be08 <unknown>\n#14 0x556c92c6bfe0 <unknown>\n#15 0x556c92c7be04 <unknown>\n#16 0x7f8e78894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_low_to_high_v1",
+        "uid" : "da378c7a0438363f",
+        "parentUid" : "de5a3a29b22fdd82e83aeeba5dafafcb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822779719,
+          "stop" : 1714822779719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de5a3a29b22fdd82e83aeeba5dafafcb"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55f53cc4ecb3 <unknown>\n#1 0x55f53c93d4a7 <unknown>\n#2 0x55f53c971a26 <unknown>\n#3 0x55f53c96d980 <unknown>\n#4 0x55f53c9b67b0 <unknown>\n#5 0x55f53c9aa1b3 <unknown>\n#6 0x55f53c97b24a <unknown>\n#7 0x55f53c97bc1e <unknown>\n#8 0x55f53cc12fdb <unknown>\n#9 0x55f53cc16f2b <unknown>\n#10 0x55f53cbff0f1 <unknown>\n#11 0x55f53cc17a92 <unknown>\n#12 0x55f53cbe3faf <unknown>\n#13 0x55f53cc3de08 <unknown>\n#14 0x55f53cc3dfe0 <unknown>\n#15 0x55f53cc4de04 <unknown>\n#16 0x7f67b1c94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_low_to_high_v2",
+        "uid" : "dc22afcc5fe3ed6",
+        "parentUid" : "34d5ee7114bdbdb1815bb11e833b75fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822780045,
+          "stop" : 1714822780045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34d5ee7114bdbdb1815bb11e833b75fb"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x555d859eecb3 <unknown>\n#1 0x555d856dd4a7 <unknown>\n#2 0x555d85711a26 <unknown>\n#3 0x555d8570d980 <unknown>\n#4 0x555d857567b0 <unknown>\n#5 0x555d8574a1b3 <unknown>\n#6 0x555d8571b24a <unknown>\n#7 0x555d8571bc1e <unknown>\n#8 0x555d859b2fdb <unknown>\n#9 0x555d859b6f2b <unknown>\n#10 0x555d8599f0f1 <unknown>\n#11 0x555d859b7a92 <unknown>\n#12 0x555d85983faf <unknown>\n#13 0x555d859dde08 <unknown>\n#14 0x555d859ddfe0 <unknown>\n#15 0x555d859ede04 <unknown>\n#16 0x7f33d9c94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_high_to_low_v1",
+        "uid" : "bb1dd2409c24b6a8",
+        "parentUid" : "e97cc62839b4d88a63656b0281aacce9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822780369,
+          "stop" : 1714822780369,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e97cc62839b4d88a63656b0281aacce9"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x561657104cb3 <unknown>\n#1 0x561656df34a7 <unknown>\n#2 0x561656e27a26 <unknown>\n#3 0x561656e23980 <unknown>\n#4 0x561656e6c7b0 <unknown>\n#5 0x561656e601b3 <unknown>\n#6 0x561656e3124a <unknown>\n#7 0x561656e31c1e <unknown>\n#8 0x5616570c8fdb <unknown>\n#9 0x5616570ccf2b <unknown>\n#10 0x5616570b50f1 <unknown>\n#11 0x5616570cda92 <unknown>\n#12 0x561657099faf <unknown>\n#13 0x5616570f3e08 <unknown>\n#14 0x5616570f3fe0 <unknown>\n#15 0x561657103e04 <unknown>\n#16 0x7fbd3f294ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_high_to_low_v2",
+        "uid" : "3b5b8c5d76da707",
+        "parentUid" : "a0896511d8dd8b5cc441c8745281b771",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822780692,
+          "stop" : 1714822780692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0896511d8dd8b5cc441c8745281b771"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x558be52a7cb3 <unknown>\n#1 0x558be4f964a7 <unknown>\n#2 0x558be4fcaa26 <unknown>\n#3 0x558be4fc6980 <unknown>\n#4 0x558be500f7b0 <unknown>\n#5 0x558be50031b3 <unknown>\n#6 0x558be4fd424a <unknown>\n#7 0x558be4fd4c1e <unknown>\n#8 0x558be526bfdb <unknown>\n#9 0x558be526ff2b <unknown>\n#10 0x558be52580f1 <unknown>\n#11 0x558be5270a92 <unknown>\n#12 0x558be523cfaf <unknown>\n#13 0x558be5296e08 <unknown>\n#14 0x558be5296fe0 <unknown>\n#15 0x558be52a6e04 <unknown>\n#16 0x7f42df094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_by_price[value0]",
+        "uid" : "ec64a9fe69d30f5a",
+        "parentUid" : "94b8ecbcab2e12af0b26f0ca934a48cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822781016,
+          "stop" : 1714822781016,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[2, False]" ]
+      } ],
+      "uid" : "94b8ecbcab2e12af0b26f0ca934a48cd"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5602a950fcb3 <unknown>\n#1 0x5602a91fe4a7 <unknown>\n#2 0x5602a9232a26 <unknown>\n#3 0x5602a922e980 <unknown>\n#4 0x5602a92777b0 <unknown>\n#5 0x5602a926b1b3 <unknown>\n#6 0x5602a923c24a <unknown>\n#7 0x5602a923cc1e <unknown>\n#8 0x5602a94d3fdb <unknown>\n#9 0x5602a94d7f2b <unknown>\n#10 0x5602a94c00f1 <unknown>\n#11 0x5602a94d8a92 <unknown>\n#12 0x5602a94a4faf <unknown>\n#13 0x5602a94fee08 <unknown>\n#14 0x5602a94fefe0 <unknown>\n#15 0x5602a950ee04 <unknown>\n#16 0x7f3ff1a94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_by_price[value1]",
+        "uid" : "d993f79a874dba43",
+        "parentUid" : "705de988609e90a033f62ccaf4d148b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822781368,
+          "stop" : 1714822781368,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[3, True]" ]
+      } ],
+      "uid" : "705de988609e90a033f62ccaf4d148b3"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5601fe154cb3 <unknown>\n#1 0x5601fde434a7 <unknown>\n#2 0x5601fde77a26 <unknown>\n#3 0x5601fde73980 <unknown>\n#4 0x5601fdebc7b0 <unknown>\n#5 0x5601fdeb01b3 <unknown>\n#6 0x5601fde8124a <unknown>\n#7 0x5601fde81c1e <unknown>\n#8 0x5601fe118fdb <unknown>\n#9 0x5601fe11cf2b <unknown>\n#10 0x5601fe1050f1 <unknown>\n#11 0x5601fe11da92 <unknown>\n#12 0x5601fe0e9faf <unknown>\n#13 0x5601fe143e08 <unknown>\n#14 0x5601fe143fe0 <unknown>\n#15 0x5601fe153e04 <unknown>\n#16 0x7f54c1094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_by_name[value0]",
+        "uid" : "d83f21a9ceb9bdd9",
+        "parentUid" : "0fc9984480931c98016290a4f7ed5221",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822781689,
+          "stop" : 1714822781689,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0, False]" ]
+      } ],
+      "uid" : "0fc9984480931c98016290a4f7ed5221"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x562fdc65fcb3 <unknown>\n#1 0x562fdc34e4a7 <unknown>\n#2 0x562fdc382a26 <unknown>\n#3 0x562fdc37e980 <unknown>\n#4 0x562fdc3c77b0 <unknown>\n#5 0x562fdc3bb1b3 <unknown>\n#6 0x562fdc38c24a <unknown>\n#7 0x562fdc38cc1e <unknown>\n#8 0x562fdc623fdb <unknown>\n#9 0x562fdc627f2b <unknown>\n#10 0x562fdc6100f1 <unknown>\n#11 0x562fdc628a92 <unknown>\n#12 0x562fdc5f4faf <unknown>\n#13 0x562fdc64ee08 <unknown>\n#14 0x562fdc64efe0 <unknown>\n#15 0x562fdc65ee04 <unknown>\n#16 0x7f9b24e94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_filtration_by_name[value1]",
+        "uid" : "7b97a1d5fa82e50",
+        "parentUid" : "5807288d17fe4831e9caf8408f9db02d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822782009,
+          "stop" : 1714822782009,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, True]" ]
+      } ],
+      "uid" : "5807288d17fe4831e9caf8408f9db02d"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x5599a3e69cb3 <unknown>\n#1 0x5599a3b584a7 <unknown>\n#2 0x5599a3b8ca26 <unknown>\n#3 0x5599a3b88980 <unknown>\n#4 0x5599a3bd17b0 <unknown>\n#5 0x5599a3bc51b3 <unknown>\n#6 0x5599a3b9624a <unknown>\n#7 0x5599a3b96c1e <unknown>\n#8 0x5599a3e2dfdb <unknown>\n#9 0x5599a3e31f2b <unknown>\n#10 0x5599a3e1a0f1 <unknown>\n#11 0x5599a3e32a92 <unknown>\n#12 0x5599a3dfefaf <unknown>\n#13 0x5599a3e58e08 <unknown>\n#14 0x5599a3e58fe0 <unknown>\n#15 0x5599a3e68e04 <unknown>\n#16 0x7f292de94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_login_success",
+        "uid" : "b92decb7f70ee8f5",
+        "parentUid" : "29436d441d5c2ba67b68298ed02e1373",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822782344,
+          "stop" : 1714822782344,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29436d441d5c2ba67b68298ed02e1373"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55ce31e3ecb3 <unknown>\n#1 0x55ce31b2d4a7 <unknown>\n#2 0x55ce31b61a26 <unknown>\n#3 0x55ce31b5d980 <unknown>\n#4 0x55ce31ba67b0 <unknown>\n#5 0x55ce31b9a1b3 <unknown>\n#6 0x55ce31b6b24a <unknown>\n#7 0x55ce31b6bc1e <unknown>\n#8 0x55ce31e02fdb <unknown>\n#9 0x55ce31e06f2b <unknown>\n#10 0x55ce31def0f1 <unknown>\n#11 0x55ce31e07a92 <unknown>\n#12 0x55ce31dd3faf <unknown>\n#13 0x55ce31e2de08 <unknown>\n#14 0x55ce31e2dfe0 <unknown>\n#15 0x55ce31e3de04 <unknown>\n#16 0x7f74ea694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_login_fail",
+        "uid" : "7369f1772d433808",
+        "parentUid" : "bfbf5592e3126f4fdefc3300c855d9a3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822782674,
+          "stop" : 1714822782674,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bfbf5592e3126f4fdefc3300c855d9a3"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55dcf4986cb3 <unknown>\n#1 0x55dcf46754a7 <unknown>\n#2 0x55dcf46a9a26 <unknown>\n#3 0x55dcf46a5980 <unknown>\n#4 0x55dcf46ee7b0 <unknown>\n#5 0x55dcf46e21b3 <unknown>\n#6 0x55dcf46b324a <unknown>\n#7 0x55dcf46b3c1e <unknown>\n#8 0x55dcf494afdb <unknown>\n#9 0x55dcf494ef2b <unknown>\n#10 0x55dcf49370f1 <unknown>\n#11 0x55dcf494fa92 <unknown>\n#12 0x55dcf491bfaf <unknown>\n#13 0x55dcf4975e08 <unknown>\n#14 0x55dcf4975fe0 <unknown>\n#15 0x55dcf4985e04 <unknown>\n#16 0x7f90cd094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "502aebabdf9fbcf4",
+        "parentUid" : "52487f67364502fa77e8b318bf0975fd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822783005,
+          "stop" : 1714822783005,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52487f67364502fa77e8b318bf0975fd"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x563138e39cb3 <unknown>\n#1 0x563138b284a7 <unknown>\n#2 0x563138b5ca26 <unknown>\n#3 0x563138b58980 <unknown>\n#4 0x563138ba17b0 <unknown>\n#5 0x563138b951b3 <unknown>\n#6 0x563138b6624a <unknown>\n#7 0x563138b66c1e <unknown>\n#8 0x563138dfdfdb <unknown>\n#9 0x563138e01f2b <unknown>\n#10 0x563138dea0f1 <unknown>\n#11 0x563138e02a92 <unknown>\n#12 0x563138dcefaf <unknown>\n#13 0x563138e28e08 <unknown>\n#14 0x563138e28fe0 <unknown>\n#15 0x563138e38e04 <unknown>\n#16 0x7fcbe7a94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_add_to_cart_product_page",
+        "uid" : "ce8e59162c33b6ee",
+        "parentUid" : "71c956148a6211d73f91a1a7dddd9e86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822783345,
+          "stop" : 1714822783345,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71c956148a6211d73f91a1a7dddd9e86"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55edc519fcb3 <unknown>\n#1 0x55edc4e8e4a7 <unknown>\n#2 0x55edc4ec2a26 <unknown>\n#3 0x55edc4ebe980 <unknown>\n#4 0x55edc4f077b0 <unknown>\n#5 0x55edc4efb1b3 <unknown>\n#6 0x55edc4ecc24a <unknown>\n#7 0x55edc4eccc1e <unknown>\n#8 0x55edc5163fdb <unknown>\n#9 0x55edc5167f2b <unknown>\n#10 0x55edc51500f1 <unknown>\n#11 0x55edc5168a92 <unknown>\n#12 0x55edc5134faf <unknown>\n#13 0x55edc518ee08 <unknown>\n#14 0x55edc518efe0 <unknown>\n#15 0x55edc519ee04 <unknown>\n#16 0x7fae28a94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_remove_from_cart_product_page",
+        "uid" : "88f5dc03be3d77a6",
+        "parentUid" : "6bf81bf766bcb7a7f1b17b57f4de280d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822783670,
+          "stop" : 1714822783670,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bf81bf766bcb7a7f1b17b57f4de280d"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x563880222cb3 <unknown>\n#1 0x56387ff114a7 <unknown>\n#2 0x56387ff45a26 <unknown>\n#3 0x56387ff41980 <unknown>\n#4 0x56387ff8a7b0 <unknown>\n#5 0x56387ff7e1b3 <unknown>\n#6 0x56387ff4f24a <unknown>\n#7 0x56387ff4fc1e <unknown>\n#8 0x5638801e6fdb <unknown>\n#9 0x5638801eaf2b <unknown>\n#10 0x5638801d30f1 <unknown>\n#11 0x5638801eba92 <unknown>\n#12 0x5638801b7faf <unknown>\n#13 0x563880211e08 <unknown>\n#14 0x563880211fe0 <unknown>\n#15 0x563880221e04 <unknown>\n#16 0x7f8887894ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_open_product_image_click",
+        "uid" : "206a898cb7bd7665",
+        "parentUid" : "adee56ae2a5391684a89b737a7b6a7d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822784006,
+          "stop" : 1714822784006,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adee56ae2a5391684a89b737a7b6a7d0"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x555602830cb3 <unknown>\n#1 0x55560251f4a7 <unknown>\n#2 0x555602553a26 <unknown>\n#3 0x55560254f980 <unknown>\n#4 0x5556025987b0 <unknown>\n#5 0x55560258c1b3 <unknown>\n#6 0x55560255d24a <unknown>\n#7 0x55560255dc1e <unknown>\n#8 0x5556027f4fdb <unknown>\n#9 0x5556027f8f2b <unknown>\n#10 0x5556027e10f1 <unknown>\n#11 0x5556027f9a92 <unknown>\n#12 0x5556027c5faf <unknown>\n#13 0x55560281fe08 <unknown>\n#14 0x55560281ffe0 <unknown>\n#15 0x55560282fe04 <unknown>\n#16 0x7fb320094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_open_product_title_click",
+        "uid" : "6c56b130dd8ccb5f",
+        "parentUid" : "06e9e0d50eca1755bd6fdb7cd0a21f17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822784340,
+          "stop" : 1714822784340,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06e9e0d50eca1755bd6fdb7cd0a21f17"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55b3804d5cb3 <unknown>\n#1 0x55b3801c44a7 <unknown>\n#2 0x55b3801f8a26 <unknown>\n#3 0x55b3801f4980 <unknown>\n#4 0x55b38023d7b0 <unknown>\n#5 0x55b3802311b3 <unknown>\n#6 0x55b38020224a <unknown>\n#7 0x55b380202c1e <unknown>\n#8 0x55b380499fdb <unknown>\n#9 0x55b38049df2b <unknown>\n#10 0x55b3804860f1 <unknown>\n#11 0x55b38049ea92 <unknown>\n#12 0x55b38046afaf <unknown>\n#13 0x55b3804c4e08 <unknown>\n#14 0x55b3804c4fe0 <unknown>\n#15 0x55b3804d4e04 <unknown>\n#16 0x7fdb46094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_registration_with_checkbox",
+        "uid" : "74511262fb2350aa",
+        "parentUid" : "cd25eec6e03d23a124e54aa511db5f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822784668,
+          "stop" : 1714822784668,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd25eec6e03d23a124e54aa511db5f3a"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x561ad97ddcb3 <unknown>\n#1 0x561ad94cc4a7 <unknown>\n#2 0x561ad9500a26 <unknown>\n#3 0x561ad94fc980 <unknown>\n#4 0x561ad95457b0 <unknown>\n#5 0x561ad95391b3 <unknown>\n#6 0x561ad950a24a <unknown>\n#7 0x561ad950ac1e <unknown>\n#8 0x561ad97a1fdb <unknown>\n#9 0x561ad97a5f2b <unknown>\n#10 0x561ad978e0f1 <unknown>\n#11 0x561ad97a6a92 <unknown>\n#12 0x561ad9772faf <unknown>\n#13 0x561ad97cce08 <unknown>\n#14 0x561ad97ccfe0 <unknown>\n#15 0x561ad97dce04 <unknown>\n#16 0x7f6a37c94ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_double_click",
+        "uid" : "84cee1f3e09274dc",
+        "parentUid" : "03c5cf44c22654b10c02d59773463e34",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822784990,
+          "stop" : 1714822784990,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03c5cf44c22654b10c02d59773463e34"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x558b4be35cb3 <unknown>\n#1 0x558b4bb244a7 <unknown>\n#2 0x558b4bb58a26 <unknown>\n#3 0x558b4bb54980 <unknown>\n#4 0x558b4bb9d7b0 <unknown>\n#5 0x558b4bb911b3 <unknown>\n#6 0x558b4bb6224a <unknown>\n#7 0x558b4bb62c1e <unknown>\n#8 0x558b4bdf9fdb <unknown>\n#9 0x558b4bdfdf2b <unknown>\n#10 0x558b4bde60f1 <unknown>\n#11 0x558b4bdfea92 <unknown>\n#12 0x558b4bdcafaf <unknown>\n#13 0x558b4be24e08 <unknown>\n#14 0x558b4be24fe0 <unknown>\n#15 0x558b4be34e04 <unknown>\n#16 0x7f7378694ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_right_click",
+        "uid" : "c0432f8c25f68c3b",
+        "parentUid" : "9efbde15a3797f11dace43ef4af41e76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822785317,
+          "stop" : 1714822785317,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9efbde15a3797f11dace43ef4af41e76"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55d8b614ecb3 <unknown>\n#1 0x55d8b5e3d4a7 <unknown>\n#2 0x55d8b5e71a26 <unknown>\n#3 0x55d8b5e6d980 <unknown>\n#4 0x55d8b5eb67b0 <unknown>\n#5 0x55d8b5eaa1b3 <unknown>\n#6 0x55d8b5e7b24a <unknown>\n#7 0x55d8b5e7bc1e <unknown>\n#8 0x55d8b6112fdb <unknown>\n#9 0x55d8b6116f2b <unknown>\n#10 0x55d8b60ff0f1 <unknown>\n#11 0x55d8b6117a92 <unknown>\n#12 0x55d8b60e3faf <unknown>\n#13 0x55d8b613de08 <unknown>\n#14 0x55d8b613dfe0 <unknown>\n#15 0x55d8b614de04 <unknown>\n#16 0x7f90c0494ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_drag_drop",
+        "uid" : "3bfb8530ded63c7",
+        "parentUid" : "ae46274fe8132e0a4ca223cb782593eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822785640,
+          "stop" : 1714822785640,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae46274fe8132e0a4ca223cb782593eb"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x56047b89ae33 <unknown>\n#1 0x56047b58a567 <unknown>\n#2 0x56047b5be9a9 <unknown>\n#3 0x56047b5ba8c0 <unknown>\n#4 0x56047b60371d <unknown>\n#5 0x56047b5f7103 <unknown>\n#6 0x56047b5c81ba <unknown>\n#7 0x56047b5c8b8e <unknown>\n#8 0x56047b85f59b <unknown>\n#9 0x56047b86334b <unknown>\n#10 0x56047b84b681 <unknown>\n#11 0x56047b863eb2 <unknown>\n#12 0x56047b8306af <unknown>\n#13 0x56047b88a428 <unknown>\n#14 0x56047b88a600 <unknown>\n#15 0x56047b899f84 <unknown>\n#16 0x7f254e094ac3 <unknown>",
+      "children" : [ {
+        "name" : "test_auth",
+        "uid" : "80ea038346b63ac5",
+        "parentUid" : "5e0ba23e8a1960eacad90a4ba27efeea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714822785969,
+          "stop" : 1714822787305,
+          "duration" : 1336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e0ba23e8a1960eacad90a4ba27efeea"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
