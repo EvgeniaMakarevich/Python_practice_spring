@@ -12,9 +12,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: install pytest
-        run: pip install pytest
-
       - name: install requirements
         run: |
          pip install -r requirements.txt
