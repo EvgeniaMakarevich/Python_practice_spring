@@ -1,0 +1,137 @@
+{
+  "uid" : "ed96cd89f28772ad",
+  "name" : "test_right_click",
+  "fullName" : "Tests.test_lesson_3.test_click_page.TestButton#test_right_click",
+  "historyId" : "a25ad0306fc683fc8f45857625fc51db",
+  "time" : {
+    "start" : 1714849363473,
+    "stop" : 1714849380161,
+    "duration" : 16688
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1714849311065,
+      "stop" : 1714849311080,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714849363190,
+      "stop" : 1714849363473,
+      "duration" : 283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "options",
+    "time" : {
+      "start" : 1714849363190,
+      "stop" : 1714849363190,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714849380162,
+      "stop" : 1714849380215,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests.test_lesson_3"
+  }, {
+    "name" : "suite",
+    "value" : "test_click_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestButton"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1429-226"
+  }, {
+    "name" : "thread",
+    "value" : "2241-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_lesson_3.test_click_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c0432f8c25f68c3b",
+        "reportUrl" : "https://EvgeniaMakarevich.github.io/Python_practice_spring/5//#testresult/c0432f8c25f68c3b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x558b4be35cb3 <unknown>\n#1 0x558b4bb244a7 <unknown>\n#2 0x558b4bb58a26 <unknown>\n#3 0x558b4bb54980 <unknown>\n#4 0x558b4bb9d7b0 <unknown>\n#5 0x558b4bb911b3 <unknown>\n#6 0x558b4bb6224a <unknown>\n#7 0x558b4bb62c1e <unknown>\n#8 0x558b4bdf9fdb <unknown>\n#9 0x558b4bdfdf2b <unknown>\n#10 0x558b4bde60f1 <unknown>\n#11 0x558b4bdfea92 <unknown>\n#12 0x558b4bdcafaf <unknown>\n#13 0x558b4be24e08 <unknown>\n#14 0x558b4be24fe0 <unknown>\n#15 0x558b4be34e04 <unknown>\n#16 0x7f7378694ac3 <unknown>",
+        "time" : {
+          "start" : 1714822785317,
+          "stop" : 1714822785317,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ed96cd89f28772ad.json",
+  "parameterValues" : [ ]
+}

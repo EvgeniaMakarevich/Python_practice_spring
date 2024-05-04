@@ -1,0 +1,183 @@
+{
+  "uid" : "b666e550b237def4",
+  "name" : "test_open_product_image_click",
+  "fullName" : "Tests.test_lesson_1.test_product.TestProduct#test_open_product_image_click",
+  "historyId" : "5ad2102ecfe1f796f2ed0f208d3c0a04",
+  "time" : {
+    "start" : 1714849356594,
+    "stop" : 1714849357570,
+    "duration" : 976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1714849311065,
+      "stop" : 1714849311080,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714849355920,
+      "stop" : 1714849356208,
+      "duration" : 288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1714849356208,
+      "stop" : 1714849356593,
+      "duration" : 385
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "options",
+    "time" : {
+      "start" : 1714849355920,
+      "stop" : 1714849355920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "527eccc6563f42e3",
+      "name" : "log",
+      "source" : "527eccc6563f42e3.txt",
+      "type" : "text/plain",
+      "size" : 1073
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714849357624,
+      "stop" : 1714849357626,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1714849357571,
+      "stop" : 1714849357624,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests.test_lesson_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_product"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProduct"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1429-226"
+  }, {
+    "name" : "thread",
+    "value" : "2241-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_lesson_1.test_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "206a898cb7bd7665",
+        "reportUrl" : "https://EvgeniaMakarevich.github.io/Python_practice_spring/5//#testresult/206a898cb7bd7665",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x563880222cb3 <unknown>\n#1 0x56387ff114a7 <unknown>\n#2 0x56387ff45a26 <unknown>\n#3 0x56387ff41980 <unknown>\n#4 0x56387ff8a7b0 <unknown>\n#5 0x56387ff7e1b3 <unknown>\n#6 0x56387ff4f24a <unknown>\n#7 0x56387ff4fc1e <unknown>\n#8 0x5638801e6fdb <unknown>\n#9 0x5638801eaf2b <unknown>\n#10 0x5638801d30f1 <unknown>\n#11 0x5638801eba92 <unknown>\n#12 0x5638801b7faf <unknown>\n#13 0x563880211e08 <unknown>\n#14 0x563880211fe0 <unknown>\n#15 0x563880221e04 <unknown>\n#16 0x7f8887894ac3 <unknown>",
+        "time" : {
+          "start" : 1714822784006,
+          "stop" : 1714822784006,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b666e550b237def4.json",
+  "parameterValues" : [ ]
+}

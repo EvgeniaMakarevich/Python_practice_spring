@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://EvgeniaMakarevich.github.io/Python_practice_spring",
+  "buildOrder" : 6,
+  "buildName" : "GitHub Actions Run #8952624215",
+  "buildUrl" : "https://github.com/EvgeniaMakarevich/Python_practice_spring/actions/runs/8952624215",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://EvgeniaMakarevich.github.io/Python_practice_spring/6/"
+} ]

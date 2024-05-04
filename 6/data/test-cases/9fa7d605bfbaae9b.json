@@ -1,0 +1,189 @@
+{
+  "uid" : "9fa7d605bfbaae9b",
+  "name" : "test_remove_from_cart[add_cart_locator3-remove_cart_locator3]",
+  "fullName" : "Tests.test_lesson_1.test_cart.TestCart#test_remove_from_cart",
+  "historyId" : "f0a4fff5b5a544b4c752d855f4d2b8d9",
+  "time" : {
+    "start" : 1714849315374,
+    "stop" : 1714849315535,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1714849311065,
+      "stop" : 1714849311080,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "options",
+    "time" : {
+      "start" : 1714849314702,
+      "stop" : 1714849314702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714849314702,
+      "stop" : 1714849314991,
+      "duration" : 289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1714849314991,
+      "stop" : 1714849315374,
+      "duration" : 383
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec9a7013b69d4116",
+      "name" : "log",
+      "source" : "ec9a7013b69d4116.txt",
+      "type" : "text/plain",
+      "size" : 1073
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714849315589,
+      "stop" : 1714849315591,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1714849315535,
+      "stop" : 1714849315589,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Tests.test_lesson_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1429-226"
+  }, {
+    "name" : "thread",
+    "value" : "2241-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_lesson_1.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "add_cart_locator",
+    "value" : "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")"
+  }, {
+    "name" : "remove_cart_locator",
+    "value" : "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5b26c6a964748d1a",
+        "reportUrl" : "https://EvgeniaMakarevich.github.io/Python_practice_spring/5//#testresult/5b26c6a964748d1a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nStacktrace:\n#0 0x55c49abc6cb3 <unknown>\n#1 0x55c49a8b54a7 <unknown>\n#2 0x55c49a8e9a26 <unknown>\n#3 0x55c49a8e5980 <unknown>\n#4 0x55c49a92e7b0 <unknown>\n#5 0x55c49a9221b3 <unknown>\n#6 0x55c49a8f324a <unknown>\n#7 0x55c49a8f3c1e <unknown>\n#8 0x55c49ab8afdb <unknown>\n#9 0x55c49ab8ef2b <unknown>\n#10 0x55c49ab770f1 <unknown>\n#11 0x55c49ab8fa92 <unknown>\n#12 0x55c49ab5bfaf <unknown>\n#13 0x55c49abb5e08 <unknown>\n#14 0x55c49abb5fe0 <unknown>\n#15 0x55c49abc5e04 <unknown>\n#16 0x7f5315094ac3 <unknown>",
+        "time" : {
+          "start" : 1714822771533,
+          "stop" : 1714822771533,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9fa7d605bfbaae9b.json",
+  "parameterValues" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+}

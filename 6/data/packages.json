@@ -1,0 +1,677 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "test_lesson_1",
+      "children" : [ {
+        "name" : "test_cart",
+        "children" : [ {
+          "name" : "test_remove_from_cart[add_cart_locator0-remove_cart_locator0]",
+          "uid" : "35b9fb29ef5b0825",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849312703,
+            "stop" : 1714849312859,
+            "duration" : 156
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+        }, {
+          "name" : "test_remove_from_cart[add_cart_locator1-remove_cart_locator1]",
+          "uid" : "d4cabc0e3000868f",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849313606,
+            "stop" : 1714849313764,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+        }, {
+          "name" : "test_remove_from_cart[add_cart_locator2-remove_cart_locator2]",
+          "uid" : "6bf2ca22402028cb",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849314486,
+            "stop" : 1714849314644,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+        }, {
+          "name" : "test_remove_from_cart[add_cart_locator3-remove_cart_locator3]",
+          "uid" : "9fa7d605bfbaae9b",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849315374,
+            "stop" : 1714849315535,
+            "duration" : 161
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+        }, {
+          "name" : "test_remove_from_cart[add_cart_locator4-remove_cart_locator4]",
+          "uid" : "8700ca6fcdc9346b",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849316295,
+            "stop" : 1714849316461,
+            "duration" : 166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+        }, {
+          "name" : "test_remove_from_cart[add_cart_locator5-remove_cart_locator5]",
+          "uid" : "5c2d6006f668346f",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849317208,
+            "stop" : 1714849317367,
+            "duration" : 159
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator0-remove_cart_locator0]",
+          "uid" : "d6d8b5416f187067",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849318106,
+            "stop" : 1714849318308,
+            "duration" : 202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator1-remove_cart_locator1]",
+          "uid" : "af1a08771f67db09",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849319034,
+            "stop" : 1714849319235,
+            "duration" : 201
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator2-remove_cart_locator2]",
+          "uid" : "30687a483de276d",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849319977,
+            "stop" : 1714849320183,
+            "duration" : 206
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator3-remove_cart_locator3]",
+          "uid" : "b7531066d53cb856",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849320906,
+            "stop" : 1714849321110,
+            "duration" : 204
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator4-remove_cart_locator4]",
+          "uid" : "b78ab07b09fdca16",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849321838,
+            "stop" : 1714849322041,
+            "duration" : 203
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+        }, {
+          "name" : "test_remove_item_go_catalogue[add_cart_locator5-remove_cart_locator5]",
+          "uid" : "31165a4095ac4f9b",
+          "parentUid" : "5ce669adde488ae7cc154bb03a0b4ae0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849322789,
+            "stop" : 1714849322991,
+            "duration" : 202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+        } ],
+        "uid" : "5ce669adde488ae7cc154bb03a0b4ae0"
+      }, {
+        "name" : "test_catalogue",
+        "children" : [ {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator0-1]",
+          "uid" : "4345e0a7ab71ef37",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849323716,
+            "stop" : 1714849323901,
+            "duration" : 185
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "1" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator1-2]",
+          "uid" : "3eb108596842c147",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849324638,
+            "stop" : 1714849324824,
+            "duration" : 186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "2" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator2-3]",
+          "uid" : "b11007d6adacdf10",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849325562,
+            "stop" : 1714849325752,
+            "duration" : 190
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "3" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator3-4]",
+          "uid" : "79d8d1970c3e6162",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849326490,
+            "stop" : 1714849326680,
+            "duration" : 190
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "4" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator4-5]",
+          "uid" : "836db17693cb4554",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849327405,
+            "stop" : 1714849327597,
+            "duration" : 192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "5" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator5-6]",
+          "uid" : "5bedf2bfd7bb342b",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849328327,
+            "stop" : 1714849328516,
+            "duration" : 189
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "6" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name0]",
+          "uid" : "a3eb0219bd788ae2",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849329246,
+            "stop" : 1714849329402,
+            "duration" : 156
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-4-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name1]",
+          "uid" : "91e3a3b3227e8e6a",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849330140,
+            "stop" : 1714849330296,
+            "duration" : 156
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-0-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name2]",
+          "uid" : "4e5b90b7d70f6242",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849331035,
+            "stop" : 1714849331193,
+            "duration" : 158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-1-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name3]",
+          "uid" : "118ec5a6cbb9db2b",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849331936,
+            "stop" : 1714849332093,
+            "duration" : 157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-5-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name4]",
+          "uid" : "2ad79ca71d8bbee8",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849332823,
+            "stop" : 1714849332985,
+            "duration" : 162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-2-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_verify_product_2[item_name5]",
+          "uid" : "5b814083c038f075",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849333745,
+            "stop" : 1714849333907,
+            "duration" : 162
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "('xpath', '//a[@data-test=\"item-3-title-link\"]')" ]
+        }, {
+          "name" : "test_add_to_cart_and_go_to_catalogue",
+          "uid" : "ddb6f2d5bdb797cd",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849334644,
+            "stop" : 1714849334830,
+            "duration" : 186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_logout",
+          "uid" : "7f29b2e32acb7e1c",
+          "parentUid" : "765587639f0acbaef17f4c3e9b3cce5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849335557,
+            "stop" : 1714849336236,
+            "duration" : 679
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "765587639f0acbaef17f4c3e9b3cce5b"
+      }, {
+        "name" : "test_filtration",
+        "children" : [ {
+          "name" : "test_filtration_az",
+          "uid" : "28045c0b46717ad2",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849336965,
+            "stop" : 1714849337110,
+            "duration" : 145
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_za",
+          "uid" : "406fc621dbbd0f97",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849337862,
+            "stop" : 1714849338040,
+            "duration" : 178
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_low_to_high_v1",
+          "uid" : "71dc3895378395be",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849338781,
+            "stop" : 1714849338960,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_low_to_high_v2",
+          "uid" : "bb35742799509e89",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849339700,
+            "stop" : 1714849339879,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_high_to_low_v1",
+          "uid" : "5a2e3222818cbe60",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849340611,
+            "stop" : 1714849340795,
+            "duration" : 184
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_high_to_low_v2",
+          "uid" : "7cbecb330f24ecde",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849341527,
+            "stop" : 1714849341710,
+            "duration" : 183
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_filtration_by_price[value0]",
+          "uid" : "b9b404cb68331391",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849342442,
+            "stop" : 1714849342621,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[2, False]" ]
+        }, {
+          "name" : "test_filtration_by_price[value1]",
+          "uid" : "ee9492366095296a",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849343349,
+            "stop" : 1714849343534,
+            "duration" : 185
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[3, True]" ]
+        }, {
+          "name" : "test_filtration_by_name[value0]",
+          "uid" : "387cc3bac4aaf401",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849344272,
+            "stop" : 1714849344415,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[0, False]" ]
+        }, {
+          "name" : "test_filtration_by_name[value1]",
+          "uid" : "567c3de91ce0faba",
+          "parentUid" : "3d2610142cf681fdf6a2af64d4fa74ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849345153,
+            "stop" : 1714849345329,
+            "duration" : 176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "[1, True]" ]
+        } ],
+        "uid" : "3d2610142cf681fdf6a2af64d4fa74ae"
+      }, {
+        "name" : "test_login",
+        "children" : [ {
+          "name" : "test_login_success",
+          "uid" : "c14988e1bca592fa",
+          "parentUid" : "5d7b898fd764f92f3d31688ad8ab8b96",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849345676,
+            "stop" : 1714849346069,
+            "duration" : 393
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login_fail",
+          "uid" : "53b851f49dc3e31a",
+          "parentUid" : "5d7b898fd764f92f3d31688ad8ab8b96",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849346406,
+            "stop" : 1714849346794,
+            "duration" : 388
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test",
+          "uid" : "7866fc0474619732",
+          "parentUid" : "5d7b898fd764f92f3d31688ad8ab8b96",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849347140,
+            "stop" : 1714849351368,
+            "duration" : 4228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5d7b898fd764f92f3d31688ad8ab8b96"
+      }, {
+        "name" : "test_product",
+        "children" : [ {
+          "name" : "test_add_to_cart_product_page",
+          "uid" : "f1d886bc6ae673f9",
+          "parentUid" : "61f90aa02946dd06ae57b71722dd34c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849352098,
+            "stop" : 1714849353634,
+            "duration" : 1536
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_remove_from_cart_product_page",
+          "uid" : "a616af9e0d19ffe4",
+          "parentUid" : "61f90aa02946dd06ae57b71722dd34c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849354363,
+            "stop" : 1714849355862,
+            "duration" : 1499
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_open_product_image_click",
+          "uid" : "b666e550b237def4",
+          "parentUid" : "61f90aa02946dd06ae57b71722dd34c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849356594,
+            "stop" : 1714849357570,
+            "duration" : 976
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_open_product_title_click",
+          "uid" : "a16e723e1354845",
+          "parentUid" : "61f90aa02946dd06ae57b71722dd34c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849358319,
+            "stop" : 1714849359269,
+            "duration" : 950
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "61f90aa02946dd06ae57b71722dd34c1"
+      } ],
+      "uid" : "5e352d27f3f8ee0e8875cae1dae29f94"
+    }, {
+      "name" : "test_lesson_2.test_registration",
+      "children" : [ {
+        "name" : "test_registration_with_checkbox",
+        "uid" : "26311df539b6e679",
+        "parentUid" : "177c273378de23376caa7a97380310dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1714849359609,
+          "stop" : 1714849360020,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "test_lesson_2.test_registration"
+    }, {
+      "name" : "test_lesson_3",
+      "children" : [ {
+        "name" : "test_click_page",
+        "children" : [ {
+          "name" : "test_double_click",
+          "uid" : "c6e6cdaf13f01ee3",
+          "parentUid" : "baea712c60555ffdd4ea215eeaab00e8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849360360,
+            "stop" : 1714849363135,
+            "duration" : 2775
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_right_click",
+          "uid" : "ed96cd89f28772ad",
+          "parentUid" : "baea712c60555ffdd4ea215eeaab00e8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1714849363473,
+            "stop" : 1714849380161,
+            "duration" : 16688
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "baea712c60555ffdd4ea215eeaab00e8"
+      }, {
+        "name" : "test_drag_and_drop",
+        "children" : [ {
+          "name" : "test_drag_drop",
+          "uid" : "ad82a5771e02d1db",
+          "parentUid" : "6ab7100231b855daa3d9161279e21623",
+          "status" : "broken",
+          "time" : {
+            "start" : 1714849380500,
+            "stop" : 1714849395219,
+            "duration" : 14719
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6ab7100231b855daa3d9161279e21623"
+      }, {
+        "name" : "test_selene",
+        "children" : [ {
+          "name" : "test_auth",
+          "uid" : "4b700eba5f3762bb",
+          "parentUid" : "155d65ee21ff4067e3b53bf33481f777",
+          "status" : "broken",
+          "time" : {
+            "start" : 1714849395324,
+            "stop" : 1714849395604,
+            "duration" : 280
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "155d65ee21ff4067e3b53bf33481f777"
+      } ],
+      "uid" : "5ac17bc85bcc6cf8c268d66356188a28"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ],
+  "name" : "packages"
+}
