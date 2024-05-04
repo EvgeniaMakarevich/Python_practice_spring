@@ -3,7 +3,7 @@ name: test_with_allure
 on: workflow_dispatch
 
 jobs:
-  build:
+  run_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,11 +15,7 @@ jobs:
       - name: install requirements
         run: |
          pip install -r requirements.txt
-  run_test:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+
       - name: run tests
         run: |
          pytest Tests
