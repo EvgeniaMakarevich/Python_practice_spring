@@ -18,7 +18,7 @@ jobs:
           
       - name: run tests
         run: |
-         pytest
+         pytest Tests
           
       - name: get allure history
         uses: actions/checkout@v4
