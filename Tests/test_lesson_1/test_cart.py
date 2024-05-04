@@ -1,3 +1,5 @@
+import time
+
 from selenium.common import NoSuchElementException
 from lesson_1.Pages.cart import Cart
 from lesson_1.Data.catalogue_data import CatalogueData
@@ -28,7 +30,6 @@ class TestCart:
         try:
             driver.find_element(*CartLocators.item_name)
             driver.find_element(*CartLocators.item_desc)
-            driver.find_element(*CartLocators.item_name)
             driver.find_element(*CartLocators.item_quantity)
             driver.find_element(*remove_cart_locator)
             assert False

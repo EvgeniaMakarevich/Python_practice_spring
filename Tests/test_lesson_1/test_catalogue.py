@@ -4,7 +4,9 @@ from lesson_1.Locators.cart_locators import CartLocators
 from lesson_1.Data.catalogue_data import CatalogueData
 from lesson_1.Data.cart_data import CartData
 from lesson_1.Data.login_data import Login_page_data
+from lesson_1.Locators.login_locators import Sauce_login
 import pytest
+from conftest import driver, options, login
 
 locators = CatalogueLocators()
 data = CatalogueData
@@ -41,6 +43,20 @@ class TestAddToCart:
         assert driver.find_element(*CartLocators.item_price).text == item_price, "Item price not found in cart or item details mismatch"
         assert driver.find_element(*CartLocators.item_quantity).text == '1'
 
+    @pytest.mark.parametrize("item_name", locators.items_list_names)
+    def test_add_to_cart_and_verify_product_2(self,login, item_name):
+        driver = login
+        catalogue = Catalogue(driver, data.catalogue_page)
+
+        item_name_text = catalogue.get_text(item_name)
+        catalogue.add_to_cart(item_name)
+
+        assert driver.current_url == CartData.cart_page, "Not redirected to cart page after adding item"
+
+        assert driver.find_element(
+            *CartLocators.item_name).text == item_name_text, "Item name not found in cart or item details mismatch"
+
+
 
     def test_add_to_cart_and_go_to_catalogue(self, login):
         driver = login
@@ -52,3 +68,15 @@ class TestAddToCart:
         assert catalogue.visibility_of_element_located(CartLocators.remove_button_tshirt).is_displayed() == True
         assert catalogue.visibility_of_element_located(CatalogueLocators.cart_badge).text == '1'
         assert catalogue.visibility_of_element_located(CartLocators.remove_button_tshirt).value_of_css_property('color') == Login_page_data.wrong_container_color
+
+    def test_logout(self, login):
+        driver = login
+        catalogue = Catalogue(driver, data.catalogue_page)
+        catalogue.open()
+        catalogue.logout()
+        assert driver.current_url == Login_page_data.main_page, 'Logout failed'
+        assert catalogue.element_is_displayed(Sauce_login.login_interface)
+
+
+
+

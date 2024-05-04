@@ -1,3 +1,5 @@
+import time
+
 from lesson_1.Pages.login_page import LoginPage
 from lesson_1.Data.login_data import Login_page_data
 from lesson_1.Locators.login_locators import Sauce_login
@@ -20,3 +22,10 @@ class TestLogin:
         assert driver.current_url == data.main_page
         assert wrong_container.text == data.wrong_container_text
         assert wrong_container.value_of_css_property('background-color') == data.wrong_container_color
+
+    def test(self, driver):
+        login_page = LoginPage(driver, data.main_page)
+        login_page.open()
+        time.sleep(2)
+        login_page.input_user_send_keys('standard_user')
+        time.sleep(2)

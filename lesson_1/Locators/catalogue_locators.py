@@ -16,3 +16,13 @@ class CatalogueLocators:
 
     cart_button = (By.XPATH, "//a[@data-test = 'shopping-cart-link']")
     cart_badge = (By.XPATH, "//span[@data-test = 'shopping-cart-badge']")
+
+    burger_menu = (By.XPATH, "//button[@id ='react-burger-menu-btn']")
+    logout_button = (By.XPATH, "//a[@id ='logout_sidebar_link']")
+
+    items_list_names = [(By.XPATH, '//a[@data-test="item-4-title-link"]'),
+    (By.XPATH, '//a[@data-test="item-0-title-link"]'),
+    (By.XPATH, '//a[@data-test="item-1-title-link"]'),
+    (By.XPATH,'//a[@data-test="item-5-title-link"]'),
+    (By.XPATH, '//a[@data-test="item-2-title-link"]'),
+    (By.XPATH, '//a[@data-test="item-3-title-link"]')]

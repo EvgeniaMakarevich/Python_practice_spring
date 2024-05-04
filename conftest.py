@@ -2,17 +2,14 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-
 from lesson_1.Data.login_data import Login_page_data
 from lesson_1.Locators.login_locators import Sauce_login
-
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pytest
 
 data = Login_page_data()
 locator = Sauce_login()
-
 
 @pytest.fixture(scope='function')
 def options():
@@ -27,6 +24,7 @@ def driver(options):
     chrome_service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=chrome_service, options=options)
     driver.maximize_window()
+    # driver.implicitly_wait(10)
     yield driver
     driver.quit()
 
