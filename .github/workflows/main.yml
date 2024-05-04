@@ -15,17 +15,12 @@ jobs:
       - name: install requirements
         run: |
          pip install -r requirements.txt
-          
+  run_test:
+    runs-on: ubuntu-latest
+    steps:
       - name: run tests
         run: |
          pytest Tests
-          
-      - name: get allure history
-        uses: actions/checkout@v4
-        if: always()
-        with:
-          ref: gh-pages
-          path: gh-pages
 
       - name: allure report
         uses: simple-elf/allure-report-action@v1.6
@@ -34,7 +29,9 @@ jobs:
           allure_results: allure-results
           allure_history: allure-history
           keep_reports: 20
-
+  publish_report:
+    runs-on: ubuntu-latest
+    steps:
       - name: publish allure
         if: always()
         uses: peaceiris/actions-gh-pages@v2
