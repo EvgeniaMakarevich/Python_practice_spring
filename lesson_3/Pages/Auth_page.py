@@ -1,8 +1,24 @@
+import pytest
 from selene import browser, by, be, have
 from selene.support.shared.jquery_style import s,ss
+from selenium import webdriver
 
 browser.config.window_width = 100
 browser.config.window_height = 500
+
+@pytest.fixture
+def browser_management(request):
+    options = webdriver.ChromeOptions()
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument('--headless=new')
+    options.add_argument("--lang=en")
+    browser.config.driver_options = options
+
+    browser.config.timeout = 3
+
+    yield browser
+
+    browser.quit()
 
 class AuthPage:
     def visit(self, url):
