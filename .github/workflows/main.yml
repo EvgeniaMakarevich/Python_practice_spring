@@ -27,10 +27,7 @@ jobs:
           allure_results: allure-results
           allure_history: allure-history
           keep_reports: 20
-  publish_report:
-    needs: run_test
-    runs-on: ubuntu-latest
-    steps:
+
       - name: publish allure
         if: always()
         uses: peaceiris/actions-gh-pages@v2
