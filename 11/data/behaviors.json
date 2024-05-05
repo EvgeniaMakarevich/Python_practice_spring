@@ -1,0 +1,616 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_remove_from_cart[add_cart_locator0-remove_cart_locator0]",
+    "uid" : "67421cc3fc07c9f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896193469,
+      "stop" : 1714896193664,
+      "duration" : 195
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+  }, {
+    "name" : "test_remove_from_cart[add_cart_locator1-remove_cart_locator1]",
+    "uid" : "66421e75d66677ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896194459,
+      "stop" : 1714896194618,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+  }, {
+    "name" : "test_remove_from_cart[add_cart_locator2-remove_cart_locator2]",
+    "uid" : "db6c0c04f57da3d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896195383,
+      "stop" : 1714896195542,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+  }, {
+    "name" : "test_remove_from_cart[add_cart_locator3-remove_cart_locator3]",
+    "uid" : "ded3253be225c782",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896196287,
+      "stop" : 1714896196446,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+  }, {
+    "name" : "test_remove_from_cart[add_cart_locator4-remove_cart_locator4]",
+    "uid" : "89c4819fde399fed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896197188,
+      "stop" : 1714896197347,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+  }, {
+    "name" : "test_remove_from_cart[add_cart_locator5-remove_cart_locator5]",
+    "uid" : "7b0a51af1364a792",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896198088,
+      "stop" : 1714896198247,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator0-remove_cart_locator0]",
+    "uid" : "6d28fd56dd1a4cdb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896198994,
+      "stop" : 1714896199194,
+      "duration" : 200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-backpack']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator1-remove_cart_locator1]",
+    "uid" : "e17ce27cd6e1009d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896199946,
+      "stop" : 1714896200151,
+      "duration" : 205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bike-light']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator2-remove_cart_locator2]",
+    "uid" : "5ef3cf469a49d1f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896200899,
+      "stop" : 1714896201110,
+      "duration" : 211
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-fleece-jacket']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator3-remove_cart_locator3]",
+    "uid" : "388678fed1d5dc67",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896201851,
+      "stop" : 1714896202057,
+      "duration" : 206
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-onesie']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator4-remove_cart_locator4]",
+    "uid" : "36283651ad7069d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896202809,
+      "stop" : 1714896203014,
+      "duration" : 205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "('xpath', \"//button[@data-test = 'remove-sauce-labs-bolt-t-shirt']\")" ]
+  }, {
+    "name" : "test_remove_item_go_catalogue[add_cart_locator5-remove_cart_locator5]",
+    "uid" : "44300ff2f2299f3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896203755,
+      "stop" : 1714896203959,
+      "duration" : 204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "('xpath', \"//button[@data-test = 'remove-test.allthethings()-t-shirt-(red)']\")" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator0-1]",
+    "uid" : "fed0be5ae19069ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896204702,
+      "stop" : 1714896204889,
+      "duration" : 187
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-backpack']\")", "1" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator1-2]",
+    "uid" : "b9964bbbffe066eb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896205633,
+      "stop" : 1714896205819,
+      "duration" : 186
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bike-light']\")", "2" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator2-3]",
+    "uid" : "3deb1816ae6c6f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896206562,
+      "stop" : 1714896206752,
+      "duration" : 190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-bolt-t-shirt']\")", "3" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator3-4]",
+    "uid" : "fa49ba0f21fa219c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896207495,
+      "stop" : 1714896207686,
+      "duration" : 191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-fleece-jacket']\")", "4" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator4-5]",
+    "uid" : "d18973ac4a9fd42e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896208423,
+      "stop" : 1714896208612,
+      "duration" : 189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-sauce-labs-onesie']\")", "5" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product[add_to_cart_locator5-6]",
+    "uid" : "c73d9668fdc6f724",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896209351,
+      "stop" : 1714896209542,
+      "duration" : 191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', \"//button[@data-test = 'add-to-cart-test.allthethings()-t-shirt-(red)']\")", "6" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name0]",
+    "uid" : "36aede80db0d7118",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896210287,
+      "stop" : 1714896210446,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-4-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name1]",
+    "uid" : "7b00a6d3603e9504",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896211190,
+      "stop" : 1714896211348,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-0-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name2]",
+    "uid" : "ab4a9572dd72a623",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896212102,
+      "stop" : 1714896212265,
+      "duration" : 163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-1-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name3]",
+    "uid" : "94fb82f57943f36a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896212997,
+      "stop" : 1714896213187,
+      "duration" : 190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-5-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name4]",
+    "uid" : "495b5643e50e68ef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896213928,
+      "stop" : 1714896214085,
+      "duration" : 157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-2-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_verify_product_2[item_name5]",
+    "uid" : "18bd85df0eb73ea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896214815,
+      "stop" : 1714896214974,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "('xpath', '//a[@data-test=\"item-3-title-link\"]')" ]
+  }, {
+    "name" : "test_add_to_cart_and_go_to_catalogue",
+    "uid" : "df57e6422d5d35c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896215737,
+      "stop" : 1714896215924,
+      "duration" : 187
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "a3e50c0fff213491",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896216663,
+      "stop" : 1714896217495,
+      "duration" : 832
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_az",
+    "uid" : "e0d688be317bb818",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896218251,
+      "stop" : 1714896218394,
+      "duration" : 143
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_za",
+    "uid" : "754072bc04bdf64d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896219129,
+      "stop" : 1714896219329,
+      "duration" : 200
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_low_to_high_v1",
+    "uid" : "283935c2660634e1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896220063,
+      "stop" : 1714896220242,
+      "duration" : 179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_low_to_high_v2",
+    "uid" : "9afd5e3603cb1b4f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896220979,
+      "stop" : 1714896221158,
+      "duration" : 179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_high_to_low_v1",
+    "uid" : "364c9244f5f67a8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896221928,
+      "stop" : 1714896222112,
+      "duration" : 184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_high_to_low_v2",
+    "uid" : "7b65458bf8944cd2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896222876,
+      "stop" : 1714896223059,
+      "duration" : 183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_filtration_by_price[value0]",
+    "uid" : "cf9b02dbb4f4fc54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896223804,
+      "stop" : 1714896223987,
+      "duration" : 183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "[2, False]" ]
+  }, {
+    "name" : "test_filtration_by_price[value1]",
+    "uid" : "88defff865e41d61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896224736,
+      "stop" : 1714896224920,
+      "duration" : 184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "[3, True]" ]
+  }, {
+    "name" : "test_filtration_by_name[value0]",
+    "uid" : "cfd2055c4308f721",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896225655,
+      "stop" : 1714896225799,
+      "duration" : 144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "[0, False]" ]
+  }, {
+    "name" : "test_filtration_by_name[value1]",
+    "uid" : "c4fdb145a5849782",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896226553,
+      "stop" : 1714896226732,
+      "duration" : 179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "[1, True]" ]
+  }, {
+    "name" : "test_login_success",
+    "uid" : "f85e6267e067ef7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896227080,
+      "stop" : 1714896227488,
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login_fail",
+    "uid" : "2e07efe931d5e7a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896227834,
+      "stop" : 1714896228232,
+      "duration" : 398
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test",
+    "uid" : "37f0108b94e637bc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896228577,
+      "stop" : 1714896232806,
+      "duration" : 4229
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_add_to_cart_product_page",
+    "uid" : "3080683895f7aa22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896233547,
+      "stop" : 1714896235091,
+      "duration" : 1544
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_remove_from_cart_product_page",
+    "uid" : "580403a5c45a7816",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896235839,
+      "stop" : 1714896237386,
+      "duration" : 1547
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_open_product_image_click",
+    "uid" : "ac2a16fa361107e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896238133,
+      "stop" : 1714896239120,
+      "duration" : 987
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_open_product_title_click",
+    "uid" : "8a5dfd8c9b161049",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896239870,
+      "stop" : 1714896240835,
+      "duration" : 965
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_registration_with_checkbox",
+    "uid" : "3c3f9924c6cae55d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896241184,
+      "stop" : 1714896241555,
+      "duration" : 371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_double_click",
+    "uid" : "c6d9de440227a005",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896241906,
+      "stop" : 1714896244503,
+      "duration" : 2597
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_right_click",
+    "uid" : "b399a832d2a67f7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896244847,
+      "stop" : 1714896250020,
+      "duration" : 5173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_auth",
+    "uid" : "cd6d1bc8abf80e4b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1714896250075,
+      "stop" : 1714896262060,
+      "duration" : 11985
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
